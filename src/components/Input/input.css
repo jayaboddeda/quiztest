@@ -1,0 +1,18 @@
+.optlabel{
+    display: block;
+    width: 95%;
+    float: right;
+
+}
+input[type="radio"]{
+    display: none;
+    width: 0;
+    height: 0;
+}
+.check{
+    float: right;
+    color: green;
+}
+
+
+

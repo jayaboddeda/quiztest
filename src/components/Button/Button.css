@@ -1,0 +1,37 @@
+button{
+    width: 9rem;
+    font-size: 1.1rem;
+    padding: 0.5rem 0;
+    margin: 0.5rem 0;
+    color: var(--pure);
+    background: var(--accent);
+    border: 2px solid var(--accent);
+    border-radius: 0.2rem;
+    cursor: pointer;
+    outline: none;
+    margin-left: 1rem;
+}
+
+.accent-button:active{
+    background: var(--darkAccent);
+    border-color: var(--darkAccent);
+    outline: none;
+
+}
+
+.link-button {
+    font-size: 1.2rem;
+    color: var(--accent);
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    border: none;
+    width: fit-content;
+    width: -moz-fit-content;
+}
+
+.outline-button{
+    color: var(--darkAccent);
+    border: 1px solid var(--darkAccent);
+    background-color: white;
+}

@@ -1,0 +1,16 @@
+:root{
+    --accent: rgb(204, 62, 0);
+    --darkAccent: rgb(138, 41, 0);
+    --pure: #ffffff;
+    --dark: #000000;
+    --lightGrey: #D6D6D6;
+    --darkGrey: #A7A7A7;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+

@@ -1,0 +1,63 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+    box-shadow: 0 0 0.4rem 0 rgb(200, 200, 200);
+}
+
+.grid-container ol {
+    padding-left: 2rem;
+    list-style-type: decimal-leading-zero;
+}
+aside{
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.question-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.buttons{
+    display: flex;
+
+}
+.prevbtn{
+    display: none;
+}
+.question{
+    width:35rem;
+}
+.question p{
+    display: flex;
+}
+.question{
+    display: none;
+}
+#question0{
+    display: block;
+}
+.options{
+    list-style-type: upper-alpha !important;
+    list-style-position: inside;
+    margin-bottom: 1rem !important;
+    padding-left: 0 !important;
+}
+
+
+.options li::marker{
+    font-weight: bold;
+    /* padding-right: 1rem !important; */
+}
+
+.options li{
+    padding: 1rem;
+    border: 1px solid #BBBBBB;
+    
+}
+.optspan{
+    padding: 1rem;
+    width: 100%;
+}
+

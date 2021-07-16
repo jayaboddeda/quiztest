@@ -1,0 +1,28 @@
+.progress-label {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.margin-left {
+    margin-left: 0.5rem;
+}
+.margin-right {
+    margin-right: 0.5rem;
+}
+.progress-bar {
+    position: relative;
+    background: var(--lightGrey);
+    height: 0.6rem;
+    width: 15rem;
+    border-radius: 0.5rem;
+}
+.progress-bar > .progress {
+    position: absolute;
+    height: inherit;
+    border-radius: inherit;
+    background: var(--darkGrey);   
+}
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}

@@ -1,0 +1,33 @@
+.timeout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem;
+    padding-top: 3rem;
+    text-align: center;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--pure);
+    color: var(--darkGrey);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.24), -5px -5px 10px rgba(0, 0, 0, 0.24);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    z-index: 99;
+}
+.timeout:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.432), -5px -5px 10px rgba(0, 0, 0, 0.432);
+    color: var(--accent) ;
+}
+
+.timeout h3{
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.timeout p,span {
+    font-size: 1.1rem;
+    font-weight: 500;
+}

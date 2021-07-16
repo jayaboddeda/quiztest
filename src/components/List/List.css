@@ -1,0 +1,33 @@
+.ordered-list {
+    padding: 1rem;
+    padding-left: 1.5rem;
+    border-bottom: 1px solid var(--lightGrey);
+    position: relative;
+}
+.ordered-list i{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    color: grey;
+    font-size: 1.2rem;
+}
+.checkflex{
+    display: flex;
+    position: relative;
+    
+}
+.qcheck{
+    padding-top: 1.5rem;
+    color: green;
+    position: absolute;
+    left: -25px;
+}
+.ordered-list li {
+    font-size: 1rem;
+    color: var(--dark);
+    cursor: pointer;
+}
+
+.active{
+    border-right: 4px solid var(--accent);
+}
